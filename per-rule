@@ -3,3 +3,53 @@
 - DOMAIN,v4.plex.tv,DIRECT
 - DOMAIN,analytics.plex.tv,DIRECT	
 - DOMAIN,global.synologydownload.com,🚀 Ncloud故转
+- DOMAIN,www.mini4k.com,DIRECT
+- DOMAIN-SUFFIX,themoviedb.org,🚀 Ncloud故转
+- DOMAIN-SUFFIX,thetvdb.com,🚀 Ncloud故转
+- DOMAIN-SUFFIX,jiuse.icu,🛩️ 高速节点
+- DOMAIN-KEYWORD,ucloud11.xyz,🛩️ 高速节点
+- DOMAIN,docker.1panel.live,DIRECT
+- DOMAIN-SUFFIX,docker.io,🚀 Ncloud故转
+- DOMAIN-SUFFIX,ghcr.io,🚀 Ncloud故转
+- DOMAIN-KEYWORD,quickconnect,DIRECT
+- DOMAIN-SUFFIX,Plex.tv,🚀 Ncloud故转
+- DOMAIN-SUFFIX,last.fm,🚀 Ncloud故转
+- DOMAIN-KEYWORD,tiktok,🛩️ 高速节点
+- DOMAIN-SUFFIX,githubusercontent.com,🚀 Ncloud故转
+- DOMAIN-SUFFIX,tmdb.org,🚀 Ncloud故转
+- DOMAIN,deb.debian.org,🚀 Ncloud故转
+- DOMAIN-SUFFIX,xsijishe.com,🛩️ 高速节点
+- DOMAIN,raw.githubusercontent.com,🚀 Ncloud故转
+- DOMAIN-SUFFIX,jellyfin.org,🚀 Ncloud故转
+- DOMAIN,global.synologydownload.com,🚀 Ncloud故转
+- DOMAIN-SUFFIX,githubusercontent.com,🚀 Ncloud故转
+- DOMAIN-SUFFIX,maptiler.com,🚀 Ncloud故转
+- DOMAIN-SUFFIX,github.com,⭐ Ncloud香港
+- DOMAIN-SUFFIX,debian.org,🚀 Ncloud故转
+  # 国内
+- DOMAIN-SUFFIX,dnsany.com,DIRECT
+- DOMAIN-SUFFIX,cmvideo.cn,DIRECT
+- DOMAIN-SUFFIX,chinamobile.com,DIRECT
+- DOMAIN-SUFFIX,mobaibox.com,DIRECT
+- DOMAIN-SUFFIX,gitv.tv,DIRECT
+- DOMAIN-SUFFIX,cctv.cn,DIRECT
+- DOMAIN-SUFFIX,yangshipin.cn,DIRECT
+- DOMAIN-SUFFIX,gcable.cn,DIRECT
+- SRC-IP-CIDR,192.168.50.182/32,DIRECT
+- SRC-IP-CIDR,192.168.50.187/32,DIRECT
+- SRC-IP-CIDR,192.168.50.250/32,⭐ Ncloud日本
+- DOMAIN,beesport.livednow.com,DIRECT
+
+  # 台湾
+- DOMAIN-SUFFIX,cdn.hinet.net,🇨🇳 台湾节点
+
+  # 海外
+- DOMAIN-SUFFIX,livednow.com,🚀 节点选择
+- DOMAIN-SUFFIX,orz-7.com,🚀 节点选择
+- DOMAIN-SUFFIX,4gtv.tv,🚀 节点选择
+- DOMAIN-SUFFIX,hinet.net,🚀 节点选择
+- DOMAIN-SUFFIX,ofiii.com,🚀 节点选择
+- DOMAIN-SUFFIX,googlevideo.com,🚀 节点选择
+- DOMAIN-SUFFIX,youtube.com,🚀 节点选择
+- DOMAIN-SUFFIX,mytvsuper.com,🚀 节点选择
+- DOMAIN-SUFFIX,thetvapp.to,🚀 节点选择
