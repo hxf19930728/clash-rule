@@ -3,7 +3,6 @@ DOMAIN-SUFFIX,themoviedb.org
 DOMAIN-SUFFIX,thetvdb.com
 DOMAIN-SUFFIX,docker.io
 DOMAIN-SUFFIX,ghcr.io
-DOMAIN-SUFFIX,clients.plex.tv
 DOMAIN-SUFFIX,last.fm
 DOMAIN-SUFFIX,githubusercontent.com
 DOMAIN-SUFFIX,tmdb.org
@@ -30,3 +29,4 @@ DOMAIN,mpm.plex.tv
 DOMAIN,meta.plex.tv
 DOMAIN,downloads.plex.tv
 DOMAIN,meta.plex.tv
+DOMAIN,plex.tv
