@@ -10,12 +10,19 @@ Ncloud节点 = url-test,NCLOUD,interval=600,tolerance=100,timeout=5,url=http://w
 香港 = url-test,香港动态 A,香港动态 B,香港动态 C,HKG A,HKG B,HKG C,HKG D,HKG E,HKG F,HKG G,HKG H,HKG I,HKG J,HKG K,HKG L,HKG M,HKG N,HKG O,interval=600,tolerance=100,timeout=5,url=http://www.gstatic.com/generate_204
 
 [Rule]
-RULE-SET,https://raw.githubusercontent.com/hxf19930728/clash-rule/refs/heads/main/per-fast.list,高速节点
-RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/TikTok/TikTok.list,台湾
-RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Google/Google.list,香港
 RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/China/China.list,DIRECT
 RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaCompanyIp.list,DIRECT
 RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaDomain.list,DIRECT
+RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Apple.list,DIRECT
+RULE-SET,https://raw.githubusercontent.com/hxf19930728/clash-rule/refs/heads/main/per-fast.list,高速节点
+RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/TikTok/TikTok.list,台湾
+RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Google/Google.list,香港
+RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/GitHub/GitHub.list,Ncloud节点
+RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Bing.list,高速节点
+RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Microsoft.list,Ncloud节点
+RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Telegram/Telegram.list,Ncloud节点
+RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/YouTube.list,高速节点
+
 # Block HTTP3/QUIC
 # AND,((PROTOCOL,UDP),(DEST-PORT,443)),REJECT-NO-DROP
 # Baidu/iqiyi
