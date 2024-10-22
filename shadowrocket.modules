@@ -1,0 +1,32 @@
+#!name=规则集
+#!desc=Description Here
+
+[Proxy Group]
+Ncloud节点 = url-test,NCLOUD,interval=600,tolerance=100,timeout=5,url=http://www.gstatic.com/generate_204
+高速节点 = url-test,香港动态 A,香港动态 B,香港动态 C,日本 A,日本 B,新加坡 A,新加坡 B,新加坡 C,新加坡 D,新加坡 E,韩国,台湾,HKG A,HKG B,HKG C,HKG D,HKG E,HKG F,HKG G,HKG H,HKG I,HKG J,HKG K,HKG L,HKG M,HKG N,HKG O,台湾 B,台湾 C,台湾 D,台湾 E,台湾 F,台湾 H,香港-1,香港-2,香港-3,香港-4,新加坡-1,新加坡-2,新加坡-3,新加坡-4,台湾-1,台湾-2,台湾-3,台湾-4,日本-1,日本-2,日本-3,日本-4,TROJAN-日本1 | 低倍率,TROJAN-台湾1 | 低倍率,TROJAN-新加坡1 | 低倍率,TROJAN-香港1 | 低倍率,interval=600,tolerance=100,timeout=5,url=http://www.gstatic.com/generate_204
+新加坡 = url-test,interval=600,tolerance=100,timeout=5,url=http://www.gstatic.com/generate_204,policy-regex-filter=新加坡
+日本 = url-test,interval=600,tolerance=100,timeout=5,url=http://www.gstatic.com/generate_204,policy-regex-filter=日本
+台湾 = url-test,interval=600,tolerance=100,timeout=5,url=http://www.gstatic.com/generate_204,policy-regex-filter=台湾
+香港 = url-test,香港动态 A,香港动态 B,香港动态 C,HKG A,HKG B,HKG C,HKG D,HKG E,HKG F,HKG G,HKG H,HKG I,HKG J,HKG K,HKG L,HKG M,HKG N,HKG O,interval=600,tolerance=100,timeout=5,url=http://www.gstatic.com/generate_204
+
+[Rule]
+RULE-SET,https://raw.githubusercontent.com/hxf19930728/clash-rule/refs/heads/main/per-fast.list,高速节点
+RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/TikTok/TikTok.list,台湾
+RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Google/Google.list,香港
+RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/China/China.list,DIRECT
+RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaCompanyIp.list,DIRECT
+RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaDomain.list,DIRECT
+# Block HTTP3/QUIC
+# AND,((PROTOCOL,UDP),(DEST-PORT,443)),REJECT-NO-DROP
+# Baidu/iqiyi
+# Alibaba
+# Accelerate most visited sites
+# LAN
+IP-CIDR,192.168.0.0/16,DIRECT
+IP-CIDR,10.0.0.0/8,DIRECT
+IP-CIDR,172.16.0.0/12,DIRECT
+IP-CIDR,127.0.0.0/8,DIRECT
+# China
+GEOIP,CN,DIRECT
+# Final
+FINAL,NCLOUD节点
