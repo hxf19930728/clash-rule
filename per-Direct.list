@@ -6,3 +6,4 @@ DOMAIN,docker.1panel.live
 DOMAIN-KEYWORD,quickconnect
 SRC-IP-CIDR,192.168.50.187/32
 DOMAIN-SUFFIX,amazonaws.com
+DOMAIN-KEYWORD,hupu
