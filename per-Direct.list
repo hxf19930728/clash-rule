@@ -3,7 +3,6 @@ DOMAIN-SUFFIX,huaxiufeng.online
 DOMAIN,www.mini4k.com
 DOMAIN,docker.1panel.live
 DOMAIN-KEYWORD,quickconnect
-SRC-IP-CIDR,192.168.50.187/32
 DOMAIN-SUFFIX,amazonaws.com
 DOMAIN,v4.plex.tv
 DOMAIN-SUFFIX,plex.direct
