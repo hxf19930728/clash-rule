@@ -111,9 +111,9 @@
     ],
     
     "rule_set": [
-      { "tag": "geosite-direct", "type": "remote", "format": "binary", "url": "https://raw.githubusercontent.com/hxf19930728/clash-rule/refs/heads/main/per-Direct.list", "download_detour": "🎯 全球直连" },
-      { "tag": "geosite-fast", "type": "remote", "format": "binary", "url": "https://raw.githubusercontent.com/hxf19930728/clash-rule/refs/heads/main/per-fast.list", "download_detour": "🎯 全球直连" },
-      { "tag": "geosite-Pornhub", "type": "remote", "format": "binary", "url": "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Pornhub.list", "download_detour": "🎯 全球直连" },
+      { "tag": "geosite-direct", "type": "remote", "format": "source", "url": "https://raw.githubusercontent.com/hxf19930728/clash-rule/refs/heads/main/per-Direct.list", "download_detour": "🎯 全球直连" },
+      { "tag": "geosite-fast", "type": "remote", "format": "source", "url": "https://raw.githubusercontent.com/hxf19930728/clash-rule/refs/heads/main/per-fast.list", "download_detour": "🎯 全球直连" },
+      { "tag": "geosite-Pornhub", "type": "remote", "format": "source", "url": "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Pornhub.list", "download_detour": "🎯 全球直连" },
       { "tag": "geosite-chat", "type": "remote", "format": "binary", "url": "https://ghproxy.cc/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/category-ai-chat-!cn.srs", "download_detour": "🎯 全球直连" },
       { "tag": "geosite-youtube", "type": "remote", "format": "binary", "url": "https://ghproxy.cc/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/youtube.srs", "download_detour": "🎯 全球直连" },
       { "tag": "geosite-google", "type": "remote", "format": "binary", "url": "https://ghproxy.cc/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/google.srs", "download_detour": "🎯 全球直连" },
