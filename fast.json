@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "domain_suffix": [
+        "jiuse.icu",
+        "xsijishe.com",
+        "heitaoak.com"
+      ],
+      "domain": [
+        ""
+      ],
+      "domain_keyword": [
+        "ucloud11.xyz"
+      ]
+    }
+  ]
+}
