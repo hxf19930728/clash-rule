@@ -8,15 +8,12 @@
         "docker.io",
         "ghcr.io",
         "last.fm",
-        "githubusercontent.com",
         "tmdb.org",
         "maptiler.com",
-        "github.com",
         "debian.org"
       ],
       "domain": [
         "global.synologydownload.com",
-        "raw.githubusercontent.com",
         "global.synologydownload.com",
         "downloads.plex.tv",
         "metadata-static.plex.tv",
