@@ -7,8 +7,7 @@
         "huaxiufeng.online",
         "mini4k.com",
         "plex.direct",
-        "amazonaws.com",
-        "douban.com"
+        "amazonaws.com"
       ],
       "domain": [
         "www.mini4k.com",
@@ -17,7 +16,8 @@
       ],
       "domain_keyword": [
         "hupu",
-        "quickconnect"
+        "quickconnect",
+        "douban"
       ]
     }
   ]
