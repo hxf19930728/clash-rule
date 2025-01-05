@@ -18,6 +18,9 @@
         "hupu",
         "quickconnect",
         "douban"
+      ],
+       "port": [
+        9095
       ]
     }
   ]
