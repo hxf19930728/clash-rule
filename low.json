@@ -4,8 +4,7 @@
     {
       "domain_suffix": [
         "themoviedb.org",
-        "thetvdb.com",
-        "docker.io",
+        "thetvdb.com"
         "ghcr.io",
         "last.fm",
         "tmdb.org",
