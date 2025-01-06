@@ -53,6 +53,22 @@
       "listen_port": 2080,
       "sniff": true,
       "users": []
+    },
+    {
+      "type": "socks",
+      "tag": "socks",
+      "listen": "::",
+      "listen_port": 10808,
+      "sniff": true,
+      "sniff_override_destination": true
+    },
+    {
+      "type": "http",
+      "tag": "http",
+      "listen": "::",
+      "listen_port": 10809,
+      "sniff": true,
+      "sniff_override_destination": true
     }
   ],
 
