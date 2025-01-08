@@ -9,7 +9,8 @@
         "last.fm",
         "tmdb.org",
         "maptiler.com",
-        "debian.org"
+        "debian.org",
+        "ghcr.io"
       ],
       "domain": [
         "global.synologydownload.com",
