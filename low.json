@@ -10,7 +10,8 @@
         "tmdb.org",
         "maptiler.com",
         "debian.org",
-        "ghcr.io"
+        "ghcr.io",
+        "omdbapi.com"
       ],
       "domain": [
         "global.synologydownload.com",
